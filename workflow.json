@@ -1,0 +1,39 @@
+{
+  "nodes": [
+    {
+      "id": "input_node",
+      "type": "Input",
+      "label": "Recipe Text Input",
+      "nodeCategory": "input"
+    },
+    {
+      "id": "recipe_script_agent",
+      "type": "Agent",
+      "label": "Recipe Script Agent",
+      "nodeCategory": "agent"
+    },
+    {
+      "id": "output_node",
+      "type": "Output",
+      "label": "Script Output",
+      "nodeCategory": "end"
+    }
+  ],
+  "edges": [
+    {
+      "source": "input_node",
+      "target": "recipe_script_agent"
+    },
+    {
+      "source": "recipe_script_agent",
+      "target": "output_node"
+    }
+  ],
+  "agents": {
+    "recipe_script_agent": {
+      "id": "6998da055cb5d92ee525ec42",
+      "name": "Recipe Script Agent",
+      "type": "single"
+    }
+  }
+}

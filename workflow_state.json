@@ -1,0 +1,16 @@
+{
+  "agents": {
+    "recipe_script_agent": {
+      "agent_id": "6998da055cb5d92ee525ec42",
+      "name": "Recipe Script Agent",
+      "model": "gpt-4.1",
+      "provider": "openai",
+      "temperature": 0.5,
+      "top_p": 0.95,
+      "has_voice": false,
+      "has_image_output": false,
+      "has_file_output": false,
+      "has_schedule": false
+    }
+  }
+}

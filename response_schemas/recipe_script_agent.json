@@ -1,0 +1,25 @@
+{
+  "agent_name": "Recipe Script Agent",
+  "agent_id": "6998da055cb5d92ee525ec42",
+  "agent_type": "json",
+  "accessor": "json",
+  "has_module_outputs": false,
+  "schema": {
+    "recipe_title": "string",
+    "total_duration": "string",
+    "difficulty_level": "string",
+    "servings": "string",
+    "script_steps": [
+      {
+        "step_number": "number",
+        "step_title": "string",
+        "narration_text": "string",
+        "scene_description": "string",
+        "ingredients_highlighted": ["string"],
+        "timing_cue": "string",
+        "technique_notes": "string",
+        "transition": "string"
+      }
+    ]
+  }
+}

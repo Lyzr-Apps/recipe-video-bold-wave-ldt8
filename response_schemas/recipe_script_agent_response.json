@@ -1,0 +1,48 @@
+{
+  "agent_name": "Recipe Script Agent",
+  "agent_id": "6998da055cb5d92ee525ec42",
+  "description": "Analyzes the input recipe and generates a comprehensive, step-by-step video script including narration text, scene descriptions, ingredient close-ups, timing cues, technique explanations, and transition directions.",
+  "agent_type": "json",
+  "accessor": "result",
+  "auto_generated": true,
+  "response_schema": {
+    "recipe_title": "string",
+    "total_duration": "string",
+    "difficulty_level": "string",
+    "servings": "string",
+    "script_steps": [
+      {
+        "step_number": "number",
+        "step_title": "string",
+        "narration_text": "string",
+        "scene_description": "string",
+        "ingredients_highlighted": [
+          "string"
+        ],
+        "timing_cue": "string",
+        "technique_notes": "string",
+        "transition": "string"
+      }
+    ]
+  },
+  "example_response": {
+    "recipe_title": "sample string",
+    "total_duration": "sample string",
+    "difficulty_level": "sample string",
+    "servings": "sample string",
+    "script_steps": [
+      {
+        "step_number": 0,
+        "step_title": "sample string",
+        "narration_text": "sample string",
+        "scene_description": "sample string",
+        "ingredients_highlighted": [
+          "sample string"
+        ],
+        "timing_cue": "sample string",
+        "technique_notes": "sample string",
+        "transition": "sample string"
+      }
+    ]
+  }
+}
